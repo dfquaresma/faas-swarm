@@ -20,6 +20,7 @@ import (
 )
 
 func main() {
+	log.Printf("Running DFQ FaaS-Swarm's server")
 
 	var err error
 	dockerClient, err := client.NewEnvClient()
